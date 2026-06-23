@@ -3,33 +3,380 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My Simple Page</title>
 </head>
 
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>DigitalPro</h1>
         <nav>
-            <a href="#about">About</a> | <a href="#contact">Contact</a>
+            <ul>
+                <li><a href=""></a>Home</li>
+                <li><a href=""></a>Services</li>
+                <li><a href=""></a>About</li>
+                <li><a href=""></a>Portafio</li>
+                <li><a href=""></a>Testimonials</li>
+            </ul>
+            <button>Contact Us</button>
         </nav>
     </header>
+
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is a simple HTML page demonstrating basic structure.</p>
+
+        <section id="home">
+            <div class="left">
+                <h1>We Build Websites That <span>Grow Your Business</span></h1>
+                <p>Transform your digital presence with custom websites that convert visitors into customers.
+                    Professional design meets cutting-edge development.</p>
+                <div class="button">
+                    <button class="btn-primary">Start Your Project</button>
+                    <button class="btn-outline">View Our Work</button>
+                </div>
+                <div class="states">
+
+                    <div class="state-item">
+                        <h2>100+</h2>
+                        <p>Projects</p>
+                    </div>
+
+                    <div class="state-item">
+                        <h2>50+</h2>
+                        <p>Client</p>
+                    </div>
+
+                    <div class="state-item">
+                        <h2>5+</h2>
+                        <p>Years Experience</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right">
+                <img src="image/1.jpg" alt="">
+            </div>
         </section>
+
+        <section id="Services">
+            <h1>Our Services</h1>
+            <p>Comprehensive digital solutions to elevate your online presence</p>
+
+            <div class="service-cards">
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                            stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-tv-minimal-icon lucide-tv-minimal">
+                            <path d="M7 21h10" />
+                            <rect width="20" height="14" x="2" y="3" rx="2" />
+                        </svg>
+                    </div>
+
+                    <h3>Web Design</h3>
+                    <p>Beautiful, user-friendly designs that captivate your audience and drive engagement with modern
+                        aesthetics.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-code-icon lucide-code">
+                            <path d="m16 18 6-6-6-6" />
+                            <path d="m8 6-6 6 6 6" />
+                        </svg>
+                    </div>
+
+                    <h3>Frontend Development</h3>
+                    <p>Clean, maintainable code built with the latest technologies for fast, responsive websites.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-palette-icon lucide-palette">
+                            <path
+                                d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z" />
+                            <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+                            <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+                            <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+                            <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+                        </svg>
+                    </div>
+
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive interfaces designed with your users in mind, ensuring seamless navigation and
+                        experience.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-search-icon lucide-search">
+                            <path d="m21 21-4.34-4.34" />
+                            <circle cx="11" cy="11" r="8" />
+                        </svg>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Boost your visibility on search engines and attract more organic traffic to your website.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="About">
+            <div class="about-top">
+                <div class="about-left">
+                    <h1>About Our Agency</h1>
+                    <p>We are a team of passionate designers and developers dedicated to creating exceptional digital
+                        experiences. With over 5 years of experience, we've helped businesses of all sizes establish a
+                        strong online presence.</p>
+                    <p>Our mission is to deliver high-quality, custom websites that not only look stunning but also
+                        drive real business results. We combine creativity with technical expertise to build solutions
+                        that exceed expectations.</p>
+                </div>
+                <div class="about-right">
+                    <img src="image/2.jfif" alt="">
+                </div>
+            </div>
+
+            <div class="about-cards">
+                <div class="card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-award-icon lucide-award">
+                            <path
+                                d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+                            <circle cx="12" cy="8" r="6" />
+                        </svg></div>
+                    <h2>100+</h2>
+                    <p>Projects</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-users-icon lucide-users">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                            <circle cx="9" cy="7" r="4" />
+                        </svg></div>
+                    <h2>50+</h2>
+                    <p>Happy Clients</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-clock-icon lucide-clock">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg></div>
+                    <h2>5+</h2>
+                    <p>Years Experience</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="#FF7A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trending-up-icon lucide-trending-up">
+                            <path d="M16 7h6v6" />
+                            <path d="m22 7-8.5 8.5-5-5L2 17" />
+                        </svg></div>
+                    <h2>98%</h2>
+                    <p>Clients Satisfaction</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Portfolio">
+            <h1>Our Portfolio</h1>
+            <p>Explore our recent projects and see the quality we deliver</p>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/agency.jpg" alt="">
+                        <button class="view-btn">View Project ↗</button>
+                    </div>
+                    <div class="info">
+                        <p>Web Design</p>
+                        <h3>Agency Website</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/restaurant.jpg" alt="">
+                        <button class="view-btn">View Project ↗</button>
+                    </div>
+                    <div class="info">
+                        <p>UI/UX Design</p>
+                        <h3>Restaurant Website</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/ecommerce.jpg" alt="">
+                        <button class="view-btn">View Project ↗</button>
+                    </div>
+                    <div class="info">
+                        <p>Frontend Development</p>
+                        <h3>E-commerce Store</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/gym.jpg" alt="">
+                        <button class="view-btn">View Project ↗</button>
+                    </div>
+                    <div class="info">
+                        <p>Web Design</p>
+                        <h3>Gym Website</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/saas.jpg" alt="">
+                        <button class="view-btn">View Project ↗</button>
+                    </div>
+                    <div class="info">
+                        <p>UI/UX Design</p>
+                        <h3>SaaS Landing Page</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/business.jpg" alt="">
+                        <button class="view-btn">View Project ↗</button>
+                    </div>
+                    <div class="info">
+                        <p>Frontend Development</p>
+                        <h3>Business Website</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Testimonials">
+            <h1>What Our Clients Say</h1>
+            <p>Don't just take our word for it - hear from our satisfied clients</p>
+            <div class="testimonials-card">
+                <div class="card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Outstanding work! The team delivered a stunning website that exceeded our expectations. Our
+                        conversion rate increased by 150% within the first month. Highly professional and responsive
+                        throughout the entire process.</p>
+                    <hr>
+                    <div class="reviewer">
+                        <img src="image/michael.jfif" alt="Michael Johnson">
+                        <div class="reviewer-info">
+                            <h4>Michael Johnson</h4>
+                            <p>Tech Innovations Inc</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Incredible attention to detail and design expertise. They transformed our vision into reality
+                        with a modern, user-friendly website. The project was delivered on time and within budget.
+                        Couldn't be happier!"</p>
+                    <hr>
+                    <div class="reviewer">
+                        <img src="image/Sarah Williams.jfif" alt="Sarah Williams">
+                        <div class="reviewer-info">
+                            <h4>Sarah Williams</h4>
+                            <p>Digital Solutions Co</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best decision we made for our business! The website is not only beautiful but also optimized
+                        for search engines. We've seen a significant increase in organic traffic and leads. Truly
+                        exceptional service!"</p>
+                    <hr>
+                    <div class="reviewer">
+                        <img src="image/Emily Chen.jfif" alt="Emily Chen">
+                        <div class="reviewer-info">
+                            <h4>Emily Chen</h4>
+                            <p>Growth Marketing Agency</p>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
         <section id="contact">
-            <h2>Contact</h2>
-            <form>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <button type="submit">Submit</button>
-            </form>
+            <h1>Contact Us</h1>
+            <p>Don't just take our word for it - hear from our satisfied clients</p>
+
+            <div class="contact-form">
+                <div class="form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+
+                <div class="form">
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" placeholder="John@Example.com">
+                </div>
+                <div class="form">
+                    <label>Project Type</label>
+                    <div class="custom-select">
+                        <div class="selected-option">Select a Service</div>
+                        <div class="dropdown-list">
+                            <div class="dropdown-item">Web Design</div>
+                            <div class="dropdown-item">Frontend Development</div>
+                            <div class="dropdown-item">UI/UX Design</div>
+                            <div class="dropdown-item">SEO Optimization</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <label for="email">Project Details</label>
+                    <textarea placeholder="Tell us about your project..." id=""></textarea>
+                </div>
+                <button>Send Message</button>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2026 My Website</p>
+
     </footer>
+
+    <script>
+        const selected = document.querySelector('.selected-option');
+        const dropdownList = document.querySelector('.dropdown-list');
+        const items = document.querySelectorAll('.dropdown-item');
+
+        // open/close on click
+        selected.addEventListener('click', () => {
+            dropdownList.classList.toggle('open');
+        });
+
+        // select an item
+        items.forEach(item => {
+            item.addEventListener('click', () => {
+                selected.textContent = item.textContent;
+                selected.style.color = 'white';
+                dropdownList.classList.remove('open');
+            });
+        });
+
+        // close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.custom-select')) {
+                dropdownList.classList.remove('open');
+            }
+        });
+    </script>
 </body>
 
 </html>
