@@ -71,4 +71,4 @@ digitalpro/
 
 ## Author
 
-Built by Musawir
+Built by Musawir A.
