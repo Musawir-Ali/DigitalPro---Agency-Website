@@ -44,7 +44,7 @@ A modern, fully responsive digital agency landing page built with HTML, CSS, and
 
 1. Clone the repository
 ```
-git clone https://github.com/your-username/digitalpro.git
+git clone https://musawir-ali.github.io/DigitalPro---Agency-Website/
 ```
 
 2. Open `index.html` in your browser
